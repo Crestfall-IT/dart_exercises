@@ -1,0 +1,13 @@
+﻿Student: Mhike Ic Dela Cruz
+Enrolled: true
+Total score: 432.5
+Quizzes taken: 5
+Average score: 86.5
+Whole-number average: 86
+Leftover points: 2.5
+Passing grade: 75.0
+Is the student passing? true
+Is the average perfect? false
+After one more quiz (90.0), quizzes taken: 6
+Updated total score: 522.5
+Updated average: 87.08
