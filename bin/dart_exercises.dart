@@ -1,5 +1,8 @@
-import 'package:dart_exercises/dart_exercises.dart' as dart_exercises;
-
-void main(List<String> arguments) {
-  print('Hello world: ${dart_exercises.calculate()}!');
+void main() {
+  // --- Variables (explicit types) ---
+  String studentName = 'Your Name'; // replace with your own name
+  int quizzesTaken = 5;
+  double totalScore = 432.5;
+  double passingGrade = 75.0;
+  bool isEnrolled = true;
 }
