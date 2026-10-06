@@ -1,6 +1,6 @@
 void main() {
   // --- Variables (explicit types) ---
-  String studentName = 'Your Name'; // replace with your own name
+  String studentName = 'Mhike Ic Dela Cruz';
   int quizzesTaken = 5;
   double totalScore = 432.5;
   double passingGrade = 75.0;
@@ -21,4 +21,21 @@ void main() {
   updatedQuizCount++; // increment
   double updatedTotal = totalScore + newQuizScore;
   double updatedAverage = updatedTotal / updatedQuizCount;
+
+  // --- Output with string interpolation ---
+  print('Student: $studentName');
+  print('Enrolled: $isEnrolled');
+  print('Total score: $totalScore');
+  print('Quizzes taken: $quizzesTaken');
+  print('Average score: $averageScore');
+  print('Whole-number average: $wholeAverage');
+  print('Leftover points: $leftoverPoints');
+  print('Passing grade: $passingGrade');
+  print('Is the student passing? $isPassing');
+  print('Is the average perfect? $isPerfect');
+  print(
+    'After one more quiz ($newQuizScore), quizzes taken: $updatedQuizCount',
+  );
+  print('Updated total score: $updatedTotal');
+  print('Updated average: ${updatedAverage.toStringAsFixed(2)}');
 }
